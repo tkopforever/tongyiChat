@@ -1,0 +1,6 @@
+.App{
+  display: flex;
+  flex-direction: column; /* 改变主轴方向为纵向，使得子元素堆叠 */
+  justify-content: center; /* 在主轴（现在是垂直方向）上居中 */
+  align-items: center; /* 在交叉轴（现在是水平方向）上居中，使所有子元素水平居中 */
+}
